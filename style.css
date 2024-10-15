@@ -1,0 +1,273 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+/* NAV BAR */
+.header {
+    background-color: #0171F9;
+    padding: 40px 100px 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.img{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links {
+    width:50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links a{
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    transition: .3s;
+
+}
+.header-links a:hover{
+    background-color: rgba(127, 127, 242, 0.793)
+}
+button{
+    background-color: #ee626b;
+    border: none;
+    border-radius: 25px;
+    padding: 5px 20px;
+    margin-left: 10px;
+    height: 50px;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: .3s;
+
+}
+button:hover{
+    background-color: #a93a42;
+    cursor: pointer
+
+}
+/* END HEADER  */
+
+
+/* Landing Page */
+.landing-page{
+    background-color: #0171F9;
+    display: flex;
+    padding: 100px 100px 120px 100px;
+    align-items: center; 
+    justify-content: space-between;
+    color: white;
+    border-radius: 0 0 100px 100px;
+    max-width: 1400px;
+}
+.landing-page .welcome{
+    font-size: x-large;
+}
+.landing-page .best{
+    font-size: 50px;
+}
+
+.landing-page-left{
+    width: 700px;
+}
+.lp-img img{
+    width: 450px;
+    border-radius: 20px;
+}
+.landing-page-search input {
+    border-radius: 50px;
+    border: none;
+    width: 60%;
+    padding: 8px 15px;
+    height: 30px;
+    outline: none;
+    position: relative;
+}
+.landing-page-search{
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.landing-page-search button {
+    /* height: 30px; */
+    position: absolute;
+    left: 460px;
+    
+}
+/* END HEADER  */
+
+
+/* Trending Games */
+.Trending-Games-Section{
+    margin-top: 70px;
+    padding: 20px 100px;
+}
+.TG-TOP{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.TG-Right-Rutton button{
+    height: 38.4px;
+    margin-bottom: 20px;  
+    border-radius: 20px;
+
+}
+.TG-TOPLEFT span{
+    color:red;
+    font-weight: bold;
+}
+.cards{
+    width:300px;
+    background-color: rgb(224, 243, 243);
+    border-radius: 30px;
+}
+.cards img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.TG-Bottom-imgs-Description{
+    padding: 10px 10px 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-logo img{
+    width: 50px;
+}
+.trending-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* END LANDING PAGE*/
+
+/* MOST PLAYED  */
+
+.mostContainer{
+    width: 1520px;
+    height: 550px;
+    background-color: rgb(236, 227, 227);
+    border-radius: 100px;
+    margin-top: 70px;
+}
+.topGames{
+    color:red;
+    font-weight: 600;
+    position: relative;
+    top: 20px;
+}
+.mostheader{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mostPlayed{
+    padding: 50px 100px 120px 100px;
+}
+
+.cardDescription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        
+}
+
+.cardimg img{
+    border-radius: 20px;
+    width: 100%;
+}
+.card{
+    width:200px;
+}
+    
+.mostContainer .mostPlayed .cardss{
+    display: flex;
+    gap: 23px;
+}
+
+/* END MOST PLAYED*/
+
+/* CATEGORY */
+
+.categoryContainer{
+    margin-top: 100px;
+}
+.categoryContainer .category{
+    padding: 50px 100px 120px 100px;
+}
+.category span {
+    color:red;
+    font-weight: 600;
+    position: relative;
+    top: 20px;
+}
+.category .categoryHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.categoryHeader h2{
+    font-size: 40px;
+}
+.category .categoryCards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.categoryCardImg img{
+    border-radius: 20px;
+    position: relative;
+    top: -20px;
+}
+.genre{
+    background-color: #0171F9;
+    border-radius: 20px 20px 0 0;
+    padding: 15px 0px;
+    color: white;
+    text-align: center;
+    padding: 15px 0 30px 0;
+    font-weight: 600;
+    font-size: large;
+    transition: 0.7s;
+}
+.category .oneCard {
+    transition: transform 0.2s ease-out; /* Specifies the transition effect */
+}
+.category .oneCard:hover {
+    transform: scale(1.08);
+
+
+}
+
+/* END CATEGORY*/
+
+/* FOOTER  */
+.footer{
+    height: 140px;
+    background-color: #0171F9;
+    border-radius: 100px 100px 0 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.footer span{
+    align-self: center;
+}
+
+/* END FOOTER*/
+
